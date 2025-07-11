@@ -1,0 +1,43 @@
+{
+  "name": "learnsolana-tutorial",
+  "version": "1.0.0",
+  "description": "Complete tutorial for creating Solana tokens with custom names and images",
+  "main": "scripts/create-token.js",
+  "scripts": {
+    "create-token": "node scripts/create-token.js",
+    "export-key": "node scripts/export-private-key.js",
+    "add-metadata": "node scripts/add-metadata.js",
+    "setup": "npm install && echo 'Setup complete! See docs/setup-guide.md for next steps.'",
+    "test": "echo 'Run npm run create-token to start tutorial'"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "cryptocurrency",
+    "token",
+    "tutorial",
+    "education",
+    "token-2022",
+    "metadata",
+    "web3",
+    "defi"
+  ],
+  "author": "Charbatskaya",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "@solana/spl-token": "^0.4.6",
+    "bs58": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charbatskaya/learnsolana-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Charbatskaya/learnsolana-tutorial/issues"
+  },
+  "homepage": "https://github.com/Charbatskaya/learnsolana-tutorial#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
